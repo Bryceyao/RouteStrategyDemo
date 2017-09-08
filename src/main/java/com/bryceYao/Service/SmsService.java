@@ -1,5 +1,7 @@
 package com.bryceYao.Service;
 
-public interface SmsService {
+import com.bryceYao.domain.City;
 
+public interface SmsService {
+    String sendSms(City city);
 }
